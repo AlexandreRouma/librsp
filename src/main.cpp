@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <fstream>
+#include <string.h>
 
 // TODO: Should be automatic in the headers
 extern "C" {
