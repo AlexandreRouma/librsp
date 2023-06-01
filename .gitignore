@@ -1,0 +1,12 @@
+/.vscode
+/build
+/datasheets
+/pcb
+/testfw
+/cmds.ods
+/regs.ods
+/rsp1_init.pcapng
+/rsp1fw
+/rsp1fw.bak
+/testfw.asm
+/testfw.c
