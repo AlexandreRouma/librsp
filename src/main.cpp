@@ -30,7 +30,7 @@ int main() {
     if (!strcmp(devList->serial, "NO SERIAL")) {
         printf("init\n");
         // Load firmware into ROM
-        std::ifstream file("../rsp1fw", std::ios::in | std::ios::binary | std::ios::ate);
+        std::ifstream file("../testfw/testfw.bin", std::ios::in | std::ios::binary | std::ios::ate);
         if (!file.is_open()) {
             printf("Could not open firmware\n");
             return -1;
